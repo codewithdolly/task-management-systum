@@ -1,0 +1,9 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+  }
+
+table, thead, tr,th, td{
+    border: 2px black solid ;
+    padding: 8px;
+}
