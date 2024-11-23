@@ -16,8 +16,8 @@ exports.getAllTask = async (req, res) => {
 
 //   create new task
 exports.createTask = async (req, res) => {
-    const { taskID, title, description, status, empId, createdBy, cresatedAt } = res.body;
-    const newTask = { taskID, title, description, status, empId, createdBy, cresatedAt }
+    const { taskID, title, description, status, empId, managerID } = res.body;
+    const newTask = { taskID, title, description, status, empId, managerID }
 
     try {
         const savedTask = await newTask.save();

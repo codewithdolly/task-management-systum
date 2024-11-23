@@ -10,10 +10,10 @@ const taskSchema= new mongoose.Schema({
         default: "pending"
     },
     empId: {type: String},
-    //managerID
-    createdBy: {type: String}, //not req
-    cresatedAt:{type: Date, default: Date.now}, //not req
-    role: {type: String, empRole:['admin', 'manager', 'employee']}// not req
+    managerID:{type: String},
+    // createdBy: {type: String}, //not req
+    // cresatedAt:{type: Date, default: Date.now}, //not req
+    // role: {type: String, empRole:['admin', 'manager', 'employee']}// not req
 
 }) ;
 
