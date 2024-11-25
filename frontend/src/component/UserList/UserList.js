@@ -2,13 +2,14 @@ import React, { useEffect, useState } from 'react'
 import {fetchUsers} from '../../api/api'
 import "./UserList.css"
 
+
 const UserList = () => {
 const [users, setUsers] = useState([])
 
 useEffect(() => {
   const getUsers = async () => {
     const data = await fetchUsers();
-    setUsers(data);
+    setUsers(data);    
     
   };
   getUsers();
