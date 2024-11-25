@@ -22,7 +22,7 @@ useEffect(() => {
         <thead className='table'>
           <tr>
          
-          <th colspan='4'>User List
+          <th colSpan='4'>User List
           
           </th>
           </tr>
