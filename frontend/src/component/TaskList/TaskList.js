@@ -42,6 +42,7 @@ useEffect(() => {
          <AccordionActions>
            <Button>Cancel</Button>
            <Button>Agree</Button>
+           <Button>Agree</Button>
          </AccordionActions>
        </Accordion>
 
